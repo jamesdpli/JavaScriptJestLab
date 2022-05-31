@@ -103,21 +103,21 @@ describe('modulus', () => {
 describe('even', () => {
 
  test('can tell if small positive number is even', () => {
-    expected = true;
+    // expected = true;
     actual = even(10);
-    expect(actual).toBe(expected);
+    expect(actual).toBeTruthy();
   });
 
   test('can tell if large positive number is even', () => { 
-    expected = true;
+    // expected = true;
     actual = even(100000000000000000);
-    expect(actual).toBe(expected);
+    expect(actual).toBeTruthy();
   });
 
   test('can tell if large positive number is not even', () => {
-    expected = false;
+    // expected = false;
     actual = even(1000000000005);
-    expect(actual).toBe(expected);
+    expect(actual).toBeFalsy();
   })
 
 });
@@ -125,21 +125,21 @@ describe('even', () => {
 describe('odd', () => {
 
  test('can tell if small positive number is odd', () => {
-    expected = true;
+    // expected = true;
     actual = odd(5);
-    expect(actual).toBe(expected);
+    expect(actual).toBeTruthy();
   });
 
   test('can tell if small positive number is odd', () => { 
-    expected = true;
+    // expected = true;
     actual = odd(200000000000005);
-    expect(actual).toBe(expected);
+    expect(actual).toBeTruthy();
   });
 
   test('can tell if large positive number is not odd', () => { 
-    expected = false;
+    // expected = false;
     actual = odd(20000000);
-    expect(actual).toBe(expected);
+    expect(actual).toBeFalsy();
   });
 
 });
