@@ -27,7 +27,7 @@ In `calculator.test.js`:
 
 ## Extensions
 
-- Think about different the different arguments you could pass to your functions and write tests to make sure nothing breaks in those scenarios, eg. passing two large numbers, passing negative numbers, one argument being zero.
+- Think about different the different arguments you could pass to your functions and write tests to make sure nothing breaks in those scenarios, eg. passing two large numbers, passing negative numbers, one argument being zero. ✅
 - Are there any places in your code where you could reuse a function you have already written? Refactor to keep things DRY - remember to re-run your tests to make sure everything still works!
 - Check the test coverage and make sure every possibility is covered by your tests. 
 - Explore [other assertion methods](https://jestjs.io/docs/expect) - could any of them be useful in your tests?
