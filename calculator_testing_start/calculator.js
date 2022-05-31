@@ -26,10 +26,10 @@ const even = function(a){
 };
 
 const odd = function(a){
-    if(modulus(a, 2) > 0){
-        return true;
+    if(even(a) == true){
+        return false; 
     }
-    else false;
+    else return true;
 };
 
 module.exports = { 

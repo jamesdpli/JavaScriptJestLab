@@ -114,6 +114,12 @@ describe('even', () => {
     expect(actual).toBe(expected);
   });
 
+  test('can tell if large positive number is not even', () => {
+    expected = false;
+    actual = even(1000000000005);
+    expect(actual).toBe(expected);
+  })
+
 });
 
 describe('odd', () => {
@@ -127,6 +133,12 @@ describe('odd', () => {
   test('can tell if small positive number is odd', () => { 
     expected = true;
     actual = odd(200000000000005);
+    expect(actual).toBe(expected);
+  });
+
+  test('can tell if large positive number is not odd', () => { 
+    expected = false;
+    actual = odd(20000000);
     expect(actual).toBe(expected);
   });
 
