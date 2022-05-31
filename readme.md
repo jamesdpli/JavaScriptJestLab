@@ -22,8 +22,8 @@ In `calculator.js`:
 
 In `calculator.test.js`:
 
-- Complete the missing tests for `sum`. Delete `.skip` from the definitions in order to let them run.
-- Write tests for the other functions you have defined. We want to see **at least two** tests for each function.
+- Complete the missing tests for `sum`. Delete `.skip` from the definitions in order to let them run. ✅
+- Write tests for the other functions you have defined. We want to see **at least two** tests for each function. ✅
 
 ## Extensions
 
