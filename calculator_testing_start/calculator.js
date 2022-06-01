@@ -26,10 +26,11 @@ const even = function(a){
 };
 
 const odd = function(a){
-    if(even(a) == true){
-        return false; 
-    }
-    else return true;
+    // if(even(a) == true){
+    //     return false; 
+    // }
+    // else return true;
+    return even(a) ? false : true;
 };
 
 module.exports = { 
